@@ -1,0 +1,206 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Main styling */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.8;
+}
+
+#logo {
+  padding-top: 20px;
+  width: 100%;
+  border-radius: 20px;
+}
+
+a {
+  color: #444;
+  text-decoration: none;
+}
+
+h1 {
+  padding-bottom: 5px;
+}
+
+p {
+  margin: 10px 0;
+}
+
+.container {
+  margin: auto;
+  max-width: 1500px;
+  overflow: auto;
+  padding: 20px;
+}
+.logo {
+  padding: 0px;
+}
+
+/* Nav bar */
+
+#navbar {
+  color: #444;
+  background: rgb(179, 213, 213);
+  overflow: auto;
+}
+#navbar a {
+  color: hsl(0, 58%, 30%);
+  font-weight: bold;
+  font-size: large;
+  text-transform: uppercase;
+}
+
+#navbar h1 {
+  float: left;
+  padding: top 20px;
+}
+
+#navbar ul {
+  list-style: none;
+  float: right;
+}
+
+#navbar li {
+  float: left;
+}
+
+#navbar ul li a {
+  padding: 20px;
+  text-align: center;
+  display: block;
+  border-radius: 10px;
+}
+
+#navbar ul li a:hover {
+  background: rgb(190, 99, 66);
+  transition: 3s;
+}
+
+/* Show-case section */
+#showcase {
+  background: url("../images/marten-bjork-n_IKQDCyrG0-unsplash.jpg") no-repeat
+    center center/cover;
+  height: 500px;
+}
+
+#showcase .home-content {
+  color: rgb(210, 191, 191);
+  text-align: center;
+  padding-top: 190px;
+  font-weight: 900;
+  font-size: 22px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#showcase .home-content h2 {
+  font-size: 60px;
+  line-height: 1.2em;
+  font-style: italic;
+}
+
+.home-primary {
+  color: coral;
+}
+
+.lead {
+  font-size: 19px;
+}
+
+#showcase .home-content p {
+  padding-bottom: 20px;
+  line-height: 1.7em;
+}
+
+.btn {
+  color: rgb(232, 221, 218);
+  display: inline-block;
+  font-size: 18px;
+  background: #333;
+  padding: 13px 20px;
+  border: 2px solid #333;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.btn-light {
+  background: #f7c08a;
+  color: #333;
+  border: none;
+  font-weight: bold;
+}
+.btn:hover {
+  color: hsl(0, 43%, 44%);
+  transition: 3s;
+}
+
+.btn-light:hover {
+  background: #444;
+}
+
+.bg-dark {
+  background: #333;
+  color: #fff;
+}
+
+.bg-light {
+  background: #916363;
+}
+/* home info */
+#info-home {
+  height: 400px;
+}
+
+#info-home .info-img {
+  float: left;
+  width: 50%;
+  background: url("../images/valeriia-bugaiova-_pPHgeHz1uk-unsplash.jpg")
+    no-repeat;
+  min-height: 100%;
+}
+
+#info-home .info-content {
+  float: right;
+  width: 50%;
+  height: 100%;
+  text-align: center;
+  padding: 30px 30px;
+  overflow: hidden;
+}
+
+.info-content p {
+  padding-bottom: 30px;
+}
+
+.primary-text {
+  color: coral;
+}
+
+/* features section */
+.box {
+  float: left;
+  width: 33.3%;
+  padding: 50px;
+  text-align: center;
+}
+
+.box i {
+  margin-bottom: 10px;
+}
+
+#features .box bg-light {
+  background: #b71111;
+}
+
+#main-footer {
+  text-align: center;
+  background: rgb(152, 188, 188);
+  font-weight: bold;
+  font-style: italic;
+}
+
+.clr {
+  clear: both;
+}
